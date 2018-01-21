@@ -1,8 +1,13 @@
 
-function hi()
-{
-    var myName = "khaled"
-    console.log( "hello  " +  myName);
+function howAge(age, dayes) {
+    var age = 30;
+    var dayes = 365;
+    var minutes = 60;
+
+    return (age * dayes * minutes)
+
+
 }
 
-hi()
+console.log('my age in minutes', howAge());
+
