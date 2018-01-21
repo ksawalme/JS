@@ -53,14 +53,6 @@ function printOut(myArray) {
       
 };
 
-
-
-
-
-
-
-
-
 printOut([1,2,3]);
 
 printOut(students)
